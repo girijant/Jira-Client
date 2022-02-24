@@ -4,8 +4,8 @@ A REST-API based client to export the Jira-Structure into XLS automatically base
 # Working Principles:
 * JIRA user MUST have to create a Jira-Structure - From multiple jira-projects, export bulk data into a single file format(xls,xlsx,json,xml..etc).
 * Run the JiraClient from your local-system which can:
-** Automatically export the jira structure into single xls file.
-** Automatically upload the XLS into Sharepoint repo.
+-- Automatically export the jira structure into single xls file based on JQL (filer-ID).
+-- Automatically upload the XLS into Sharepoint repo.
 * From PowerBI server, configure a scheduler to pull or refresh data periodically from the Sharepoint.
 Note: User MUST have to configure their own PowerBI-Template in PowerBI server in order to generate the Reporting Data in terms of Table/Charts/Graphs...etc.
 
